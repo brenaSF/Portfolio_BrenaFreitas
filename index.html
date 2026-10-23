@@ -1,285 +1,285 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PORTFÓLIO</title>
-
+    <title>Portfólio | Brena dos Santos Freitas</title>
+    <!-- Fontes do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-       
-        <a href="#home-section">Home</a>
-       
-        <a href="#about-me-section" >About me </a>
-
-        <a href="#portfolio-section">Portfolio </a>
-
-        <a href="#experience-section">Experience </a>
-       
-        <a href="#contact-section" class="CONTACT"> CONTACT</a>
-
+        <nav class="nav-container">
+            <a href="#home-section" class="logo">Brena Freitas</a>
+            <div class="nav-links">
+                <a href="#home-section">Home</a>
+                <a href="#about-me-section">Sobre mim</a>
+                <a href="#community-section">Comunidade</a>
+                <a href="#portfolio-section">Projetos</a>
+                <a href="#experience-section">Tecnologias</a>
+                <a href="#contact-section" class="btn-contact">CONTATO</a>
+            </div>
+        </nav>
     </header>
 
     <main>
 
-        <div class="Home" id="home-section">
-           
-            <div>
-           
-                <h1>Hi, I'm a Software Engineer</h1>
-    
+        <!-- Seção Principal / Home -->
+        <section class="hero-section" id="home-section">
+            <div class="hero-content">
+                <span class="section-tag">( 01 )</span>
+                <h1>Engenheira de <br><em>Software.</em></h1>
+                <p class="hero-subtext">Criando soluções tecnológicas com propósito, código limpo e foco em impacto positivo.</p>
             </div>
-            
-            <div class="foto">
+        </section>
+
+        <!-- Seção Sobre Mim -->
+        <section class="about-section" id="about-me-section">
+            <div class="container grid-2">
+                <div class="foto-card">
+                    <img src="assets/eu.jpg" alt="Foto de Brena dos Santos Freitas">
+                </div>
+                <div class="about-text">
+                    <span class="section-tag">( 02 )</span>
+                    <h2>A paixão por criar <br><em>tecnologia útil.</em></h2>
+                    <p>
+                        Olá! 👋 Sou a <strong>Brena dos Santos Freitas</strong>, graduanda em Engenharia de Software na Universidade Tecnológica Federal do Paraná (UTFPR) e apaixonada pelo universo da programação desde o ensino médio.
+                    </p>
+                    <p>
+                        Minha jornada começou com o curso técnico em mecatrônica na Fundação Matias Machline. Atualmente, aprofundo meus conhecimentos em engenharia de software e análise de dados para gerar impacto positivo na sociedade.
+                    </p>
+                    <a href="explore.html" class="btn-pill">SAIBA MAIS</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Comunidade & Impacto (Inspirado no modelo da imagem) -->
+        <section class="community-section" id="community-section">
+            <div class="container">
+                <div class="community-header">
+                    <div>
+                        <span class="section-tag">( 03 )</span>
+                        <h2>Impacto também <br><em>é comunidade.</em></h2>
+                    </div>
+                    <p class="community-description">
+                        Compartilhar conhecimento é parte do futuro que quero ajudar a construir: mais diverso, acessível e colaborativo.
+                    </p>
+                </div>
+
+                <div class="cards-grid">
+                    <!-- Card 1 -->
+                    <div class="card card-green-light">
+                        <div class="card-banner banner-1">
+                            <div class="illustration-people">
+                                <span></span><span></span><span></span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <span class="card-subtitle">ASSESSORA</span>
+                            <h3>Meninas Digitais <br>UTFPR-CP</h3>
+                            <p>Apoio a iniciativas que aproximam meninas da tecnologia e fortalecem a presença feminina na computação.</p>
+                            <span class="card-tag">Comunidade & inclusão</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="card card-mint">
+                        <div class="card-banner banner-2">
+                            <div class="illustration-atom">
+                                <div class="orbit"></div>
+                                <div class="orbit rot-2"></div>
+                                <div class="center-star">✦</div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <span class="card-subtitle">MENTORA</span>
+                            <h3>Technovation <br>Girls</h3>
+                            <p>Mentoria para incentivar jovens meninas a criarem, testarem ideias e reconhecerem seu lugar no ecossistema de tecnologia.</p>
+                            <span class="card-tag">Mentoria & futuro</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formação e Cursos -->
+        <section class="education-section">
+            <div class="container grid-2">
+                <div class="edu-block">
+                    <h3>Formação</h3>
+                    <div class="edu-item">
+                        <h4>Ensino Médio Técnico</h4>
+                        <p>Fundação Matias Machline</p>
+                    </div>
+                    <div class="edu-item">
+                        <h4>Graduação em Engenharia de Software</h4>
+                        <p>UTFPR - Campus Cornélio Procópio</p>
+                    </div>
+                </div>
+                <div class="edu-block">
+                    <h3>Cursos & Certificações</h3>
+                    <div class="edu-item">
+                        <h4>Fundamentos de Power BI</h4>
+                    </div>
+                    <div class="edu-item">
+                        <h4>Python for Data Science</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfólio / Projetos -->
+        <section class="portfolio-section" id="portfolio-section">
+            <div class="container">
+                <span class="section-tag">( 04 )</span>
+                <h2>Projetos em <em>destaque</em></h2>
                 
-              
-            </div>
-    
-
-        </div>
-
-        <div class="Aboutme" id="about-me-section">
-
-            <div class="foto2">
-
-                <img src="assets/eu.jpg" alt="" width="250px" height="400px" >
-
-            </div>
-
-            <div class="texto">
-
-                <h2> About me </h2>
-
-                <p> 
-                    Olá! 👋 Sou a Brena dos Santos Freitas, graduanda em Engenharia de Software na Universidade Tecnológica Federal do Paraná (UTFPR) e apaixonada  pelo universo da programação desde os tempos do ensino médio. Minha jornada começou com o curso técnico em mecatrônica na Fundação Matias Machline, onde meu interesse por criar soluções tecnológicas foi despertado.
-
-                    <br><br>
-
-                    Atualmente, estou imersa no mundo da computação na UTFPR, aprofundando meus conhecimentos e buscando oportunidades para aplicar na prática tudo o que aprendi. Participei do Hackbee, o hackathon da universidade, onde tive a oportunidade de colaborar na criação de soluções inovadoras para desafios da sociedade, consolidando minha paixão por impactar positivamente o mundo por meio da tecnologia.
+                <div class="portfolio-grid">
                     
-                    
-                </p>
+                    <!-- CARD DO PROJETO 1: BANCO CENTRAL / MACRO PIPELINE -->
+                    <article class="portfolio-card-expanded">
+                        <div class="project-header">
+                            <div class="project-tags">
+                                <span class="badge">Airflow</span>
+                                <span class="badge">Docker</span>
+                                <span class="badge">PostgreSQL</span>
+                                <span class="badge">Metabase</span>
+                            </div>
+                            <h3>Pipeline de Indicadores Macroeconômicos (BCB)</h3>
+                            <p class="project-desc">
+                                Pipeline de engenharia de dados automatizado que consome séries temporais (Selic e IPCA) da API do Banco Central do Brasil, realiza limpeza/tratamento com Python e persiste os dados estruturados no PostgreSQL via Apache Airflow.
+                            </p>
+                        </div>
 
+                        <!-- DIAGRAMA DA ARQUITETURA -->
+                        <div class="project-architecture">
+                            <h4>📐 Arquitetura da Solução</h4>
+                            <div class="architecture-flow">
+                                <code>API BCB ➔ Airflow (ETL Python) ➔ PostgreSQL (Data Warehouse) ➔ Metabase Dashboard</code>
+                            </div>
+                        </div>
 
-                <a href="explore.html" class="EXPLORE"> SAIBA MAIS </a>
+                        <!-- ABAS DE NAVEGAÇÃO INTERATIVA DO PROJETO -->
+                        <div class="project-tabs">
+                            <button class="tab-btn active" onclick="switchTab(event, 'dash-bcb')">📊 Dashboard Interativo</button>
+                            <button class="tab-btn" onclick="switchTab(event, 'comments-bcb')">💬 Comentários & Discussions</button>
+                        </div>
 
-            </div>
-            
+                        <!-- CONTEÚDO DAS ABAS -->
+                        <div class="tab-content-wrapper">
+                            <!-- ABA 1: DASHBOARD EMBARCADO -->
+                            <div id="dash-bcb" class="tab-content active">
+                                <div class="iframe-container">
+                                    <!-- Substitua o src abaixo pelo link do seu Metabase/Streamlit/PowerBI embarcado -->
+                                    <iframe src="http://localhost:3000/public/dashboard/seu-id-do-metabase" frameborder="0" width="100%" height="450" allowtransparency></iframe>
+                                </div>
+                            </div>
 
-        </div>
+                            <!-- ABA 2: SEÇÃO DE COMENTÁRIOS (GISCUS) -->
+                            <div id="comments-bcb" class="tab-content">
+                                <div class="giscus-container">
+                                    <p class="comments-intro">Deixe seu feedback, sugestões de arquitetura ou dúvidas sobre este projeto diretamente no GitHub Discussions:</p>
+                                    
+                                    <!-- CONTAINER DO GISCUS -->
+                                    <script src="https://giscus.app/client.js"
+                                            data-repo="brenaSF/bcb-macro-pipeline"
+                                            data-repo-id="SEU_REPO_ID_AQUI"
+                                            data-category="Announcements"
+                                            data-category-id="SUA_CATEGORY_ID_AQUI"
+                                            data-mapping="pathname"
+                                            data-strict="0"
+                                            data-reactions-enabled="1"
+                                            data-emit-metadata="0"
+                                            data-input-position="top"
+                                            data-theme="light"
+                                            data-lang="pt"
+                                            crossorigin="anonymous"
+                                            async>
+                                    </script>
+                                </div>
+                            </div>
+                        </div>
 
-        <div class="Formacao">
-
-            <h2>Formação </h2>
-
-            <h3>Ensino Médio Técnico</h3>
-
-            <h3>Graduação</h3>
-
-        </div>
-
-        <div class="Formacao">
-
-            <h2>Cursos </h2>
-
-            <h3>Fundamentos de Power BI</h3>
-
-            <h3>Python for Data Science</h3>
-
-        </div>
-
-        <div class="carrossel-container portfolio" id="portfolio-section">
-
-            <div class="carrossel">
-
-                <div class="secao">
-
-                    <h3><a href="#"> MAFRA </a> </h3>
-        
-                </div>
-
-                <div class="secao">
-    
-                    <h3><a href="#"> ELLP </a> </h3>   
-        
-                </div>
-        
-                <div class="secao">
-    
-                    <h3><a href="#">FORMULÁRIO</a> </h3>
-        
-                </div>
-    
-               
-
-            </div>
-            
-        </div>
-
-        <div class="Experience" id="experience-section">
-
-            <h2>Tecnologias</h2>
-
-
-            <div class="experience-item">
-                
-                <img src="assets/vscode-icons_file-type-js-official.png" alt="">
-               
-                <p>JavaScript</p>
-
-            </div>
-    
-            <div class="experience-item">
-               
-                <img src="assets/devicon_css3.png" alt="">
-                
-                <p>CSS3</p>
-
-            </div>
-
-         
-            <div class="experience-item">
-               
-                <img src="assets/devicon_java.png" alt="">
-               
-                <p>Java</p>
-
-            </div>
-
-            <div class="experience-item">
-
-                <img src="assets/devicon_c.png" alt="">
-
-                <p>C</p>
-            
-            </div>
-
-            <div class="experience-item">
-
-                <img src="assets/devicon_spring.png" alt="">
-
-                <p>Spring Boot</p>
-
-            </div>
-
-            <div class="experience-item">
-
-                <img src="assets/logos_jupyter.png" alt="">
-
-                <p>Jupyter Notebook</p>
-
-            </div>
-
-            <div class="experience-item">
-
-                <img src="assets/vscode-icons_file-type-html.png" alt="">
-
-                <p>C</p>
-            
-            </div>
-
-            <div class="experience-item">
-
-                <img src="assets/logos_python.png" alt="">
-
-                <p>Spring Boot</p>
-
-            </div>
-
-            <div class="experience-item">
-
-                <img src="assets/logos_mysql.png" alt="">
-
-                <p>Jupyter Notebook</p>
-
-            </div>
-
-            <div class="experience-item">
-
-                <img src="assets/vscode-icons_file-type-vscode.png" alt="">
-
-                <p>Jupyter Notebook</p>
-
-            </div>
-
-
-        </div>
-
-        <div class="Contact" id="contact-section">
-
-            <div class="Contactme">
-
-                <h2>Send me a message </h2>
-
-                <div class="numero info-container">
-                    
-                    <img src="assets/ph_phone.png" alt="">
-
-                    <p>(92) 98839-7113</p>
+                        <div class="project-footer">
+                            <a href="https://github.com/brenaSF/bcb-macro-pipeline" target="_blank" class="btn-pill">Ver Repositório no GitHub ↗</a>
+                        </div>
+                    </article>
 
                 </div>
+            </div>
+        </section>
+
+        <!-- Tecnologias -->
+        <section class="tech-section" id="experience-section">
+            <div class="container">
+                <span class="section-tag">( 05 )</span>
+                <h2>Tecnologias & <em>Ferramentas</em></h2>
                 
-                <br>
+                <div class="tech-grid">
+                    <div class="tech-item"><img src="assets/vscode-icons_file-type-js-official.png" alt="JavaScript"><p>JavaScript</p></div>
+                    <div class="tech-item"><img src="assets/devicon_css3.png" alt="CSS3"><p>CSS3</p></div>
+                    <div class="tech-item"><img src="assets/vscode-icons_file-type-html.png" alt="HTML5"><p>HTML5</p></div>
+                    <div class="tech-item"><img src="assets/devicon_java.png" alt="Java"><p>Java</p></div>
+                    <div class="tech-item"><img src="assets/devicon_c.png" alt="C"><p>C</p></div>
+                    <div class="tech-item"><img src="assets/devicon_spring.png" alt="Spring Boot"><p>Spring Boot</p></div>
+                    <div class="tech-item"><img src="assets/logos_python.png" alt="Python"><p>Python</p></div>
+                    <div class="tech-item"><img src="assets/logos_jupyter.png" alt="Jupyter"><p>Jupyter Notebook</p></div>
+                    <div class="tech-item"><img src="assets/logos_mysql.png" alt="MySQL"><p>MySQL</p></div>
+                    <div class="tech-item"><img src="assets/vscode-icons_file-type-vscode.png" alt="VS Code"><p>VS Code</p></div>
+                </div>
+            </div>
+        </section>
 
-                <div class="email info-container" >
+        <!-- Contato -->
+        <section class="contact-section" id="contact-section">
+            <div class="container grid-2">
+                <div class="contact-info">
+                    <h2>Entre em <em>contato</em></h2>
+                    <p class="contact-subtext">Sinta-se à vontade para enviar uma mensagem ou me acompanhar nas redes.</p>
 
-                    <img src="assets/material-symbols-light_alternate-email.png" alt="" >
+                    <div class="info-item">
+                        <img src="assets/ph_phone.png" alt="Telefone">
+                        <p>(92) 98839-7113</p>
+                    </div>
 
-                    <p>brena.s.freitas15@gmail.com</p>
+                    <div class="info-item">
+                        <img src="assets/material-symbols-light_alternate-email.png" alt="E-mail">
+                        <p>brena.s.freitas15@gmail.com</p>
+                    </div>
 
+                    <div class="info-item">
+                        <img src="assets/bx_map.png" alt="Localização">
+                        <p>Cornélio Procópio - PR</p>
+                    </div>
                 </div>
 
-                <br>
-
-                <div class="localizacao info-container">
-
-                    <img src="assets/bx_map.png" alt="">
-
-                    <p>Cornélio Procópio-PR</p>
-
+                <div class="social-links">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/brena-dos-santos-freitas-b9b7131b3/" target="_blank" aria-label="LinkedIn">
+                            <img src="assets/mdi_linkedin.png" alt="LinkedIn">
+                        </a>
+                        <a href="https://www.instagram.com/brena_freitass/" target="_blank" aria-label="Instagram">
+                            <img src="assets/mdi_instagram.png" alt="Instagram">
+                        </a>
+                        <a href="https://github.com/brenaSF" target="_blank" aria-label="GitHub">
+                            <img src="assets/devicon_github.png" alt="GitHub">
+                        </a>
+                    </div>
                 </div>
-               
-
             </div>
-
-            <div class="SocialMedia">
-                
-                <a href="https://www.linkedin.com/in/brena-dos-santos-freitas-b9b7131b3/" target="_blank">
-                 
-                    <img src="assets/mdi_linkedin.png" alt="LinkedIn">
-                
-                </a>
-                
-                <a href="https://www.instagram.com/brena_freitass/" target="_blank">
-                
-                    <img src="assets/mdi_instagram.png" alt="Instagram">
-                
-                </a>
-                
-                <a href="https://github.com/brenaSF" target="_blank">
-                
-                    <img src="assets/devicon_github.png" alt="GitHub">
-                
-                </a>
-
-            </div>
-            
-          
-
-
-        </div>
+        </section>
 
     </main>
 
     <footer>
-
-        <p>&copy; 2024 Brena dos Santos Freitas. Todos os direitos reservados.</p>
+        <p>&copy; 2026 Brena dos Santos Freitas. Todos os direitos reservados.</p>
     </footer>
 
- <script src="script.js"></script>
-    
+    <script src="script.js"></script>
 </body>
 </html>
